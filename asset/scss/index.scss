@@ -1,0 +1,74 @@
+html {
+
+    background-color: rgb(0, 0, 0);
+    //overflow: hidden;
+    font-family: 'Permanent Marker', cursive;
+    user-select: none;
+
+}
+
+.AllBonus{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:red;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.bonus{
+
+    background-color: black;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+.C00KIE {
+
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin:0;
+
+}
+
+header{
+
+    background-image: url(../img/cookie.jpg);
+
+}
+
+.canvas{
+
+    padding: 0;
+    margin: 25px auto;
+    display: block;
+    width: 300px;
+    border-radius: 300px;
+
+}
+
+.AllMultiplicateur{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:red;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+#BonusTimer,#Multiplicateur1,#Multiplicateur2,#Multiplicateur3,#Multiplicateur4,#Multiplicateur5,#Timer{
+
+    display:none;
+
+}
+#Timer{
+    color: green;
+}
