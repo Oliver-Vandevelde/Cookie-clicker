@@ -1,10 +1,15 @@
 html {
-  background-color: black;
   font-family: 'Permanent Marker', cursive;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+}
+
+body {
+  background-image: url(../img/cookies-1372607_1920.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .AllBonus {
@@ -17,28 +22,24 @@ html {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  color: red;
+  color: white;
   margin-top: 0;
   margin-bottom: 0;
+  border: 2px solid #75460f;
+  background-image: url(../img/color-3274960_640.jpg);
 }
 
 .bonus {
-  background-color: black;
   padding: 10px;
-  border: 1px solid black;
+  border: 2px solid #75460f;
 }
 
 .C00KIE {
   font-size: 40px;
   text-align: center;
   color: white;
-  padding: 10px;
   text-decoration: none;
   margin: 0;
-}
-
-header {
-  background-image: url(../img/cookie.jpg);
 }
 
 .canvas {
@@ -59,9 +60,10 @@ header {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  color: red;
+  color: white;
   margin-top: 0;
   margin-bottom: 0;
+  background-image: url(../img/color-3274960_640.jpg);
 }
 
 #BonusTimer, #Multiplicateur1, #Multiplicateur2, #Multiplicateur3, #Multiplicateur4, #Multiplicateur5, #Timer {
@@ -69,6 +71,11 @@ header {
 }
 
 #Timer {
-  color: green;
+  color: white;
+}
+
+.Multiplicateur {
+  border: 4px solid #75460f;
+  padding: 0 10px;
 }
 /*# sourceMappingURL=index.css.map */
